@@ -1,4 +1,5 @@
 /build/
 /physical/lib/*.lib
+/.wrangler/
 *.vcd
 *.fst

@@ -1,1 +1,16 @@
+* text=auto
+
+# Keep scripts and build inputs portable on Unix-based toolchains.
+*.sh text eol=lf
+*.py text eol=lf
+Makefile text eol=lf
+*.mk text eol=lf
+*.tcl text eol=lf
+*.ys text eol=lf
+*.sdc text eol=lf
+*.sv text eol=lf
+*.v text eol=lf
+*.S text eol=lf
+*.ld text eol=lf
+
 SPEC.md -whitespace
