@@ -1,0 +1,9 @@
+read_liberty -lib -ignore_miss_func physical/lib/NangateOpenCellLibrary_typical.lib
+read_verilog -sv rtl/cache/mesi_controller.sv
+hierarchy -check -top mesi_controller
+synth -top mesi_controller -flatten
+dfflibmap -liberty physical/lib/NangateOpenCellLibrary_typical.lib
+abc -liberty physical/lib/NangateOpenCellLibrary_typical.lib
+clean
+tee -o build/mesi-mapped-stat.txt stat -liberty physical/lib/NangateOpenCellLibrary_typical.lib
+write_verilog -noattr -noexpr build/mesi_controller_mapped.v

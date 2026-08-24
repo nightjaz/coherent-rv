@@ -1,0 +1,10 @@
+read_liberty -lib -ignore_miss_func physical/lib/NangateOpenCellLibrary_typical.lib
+read_verilog -DSYNTHESIS -sv rtl/core/alu.sv rtl/core/immediate_gen.sv rtl/core/control_unit.sv
+read_verilog -DSYNTHESIS -sv rtl/core/register_file.sv rtl/core/hazard_unit.sv rtl/core/forwarding_unit.sv rtl/core/rv32_core.sv
+hierarchy -check -top rv32_core
+synth -top rv32_core -flatten
+dfflibmap -liberty physical/lib/NangateOpenCellLibrary_typical.lib
+abc -liberty physical/lib/NangateOpenCellLibrary_typical.lib
+clean
+tee -o build/core-mapped-stat.txt stat -liberty physical/lib/NangateOpenCellLibrary_typical.lib
+write_verilog -noattr -noexpr build/rv32_core_mapped.v

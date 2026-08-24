@@ -1,0 +1,9 @@
+read_liberty -lib -ignore_miss_func physical/lib/NangateOpenCellLibrary_typical.lib
+read_verilog -DLEGACY_COUNTONES_OCCUPANCY -DSYNTHESIS -sv rtl/cache/mesi_controller.sv rtl/cache/dcache.sv
+hierarchy -check -top dcache
+proc; flatten; opt; memory_dff; memory_collect; opt; techmap; opt
+dfflibmap -liberty physical/lib/NangateOpenCellLibrary_typical.lib
+abc -liberty physical/lib/NangateOpenCellLibrary_typical.lib
+clean
+tee -o build/dcache-before-occupancy-opt-mapped-stat.txt stat -liberty physical/lib/NangateOpenCellLibrary_typical.lib
+write_verilog -noattr build/dcache_before_occupancy_opt_mapped.v

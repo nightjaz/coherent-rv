@@ -1,0 +1,10 @@
+read_verilog -DSYNTHESIS -sv rtl/core/alu.sv rtl/core/immediate_gen.sv rtl/core/control_unit.sv
+read_verilog -DSYNTHESIS -sv rtl/core/register_file.sv rtl/core/hazard_unit.sv rtl/core/forwarding_unit.sv rtl/core/rv32_core.sv
+read_verilog -sv rtl/cache/icache.sv rtl/cache/dcache.sv rtl/cache/mesi_controller.sv rtl/cache/cache_controller.sv
+read_verilog -sv rtl/interconnect/bus_arbiter.sv rtl/interconnect/coherence_bus.sv rtl/interconnect/memory_controller.sv
+read_verilog -sv rtl/memory/simple_memory.sv rtl/soc/dual_core_soc.sv
+hierarchy -check -top dual_core_soc
+proc; opt; memory -nomap; opt
+techmap; opt
+tee -o build/soc-stat.json stat -json
+write_json build/dual_core_soc.json

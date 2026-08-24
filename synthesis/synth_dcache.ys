@@ -1,0 +1,5 @@
+read_verilog -sv rtl/cache/mesi_controller.sv rtl/cache/dcache.sv
+hierarchy -check -top dcache
+proc; opt; memory -nomap; opt; techmap; opt
+tee -o build/dcache-stat.json stat -json
+write_json build/dcache.json

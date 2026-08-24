@@ -1,0 +1,5 @@
+# Verification strategy
+
+The regression contains single-cycle and pipelined RV32I tests, five linked programs, 37 upstream RV32UI files, cache hit/miss/clean-and-dirty-eviction tests, all nine stable MESI transitions, locked delayed-memory arbitration and dirty interventions, bus mutual exclusion/fairness, directed two-cache scenarios, repeated message passing, and seeded randomized coherent reads/writes checked against a testbench reference memory. Executable SVA checks x0, accepted-redirect invalidation under wait states, killed-instruction retirement/register/store exclusion, recorded cache request/address correspondence, arbiter one-hot grants, and tag-aware M/E exclusivity.
+
+`make v1-regression` is the release gate. `make lint` runs Verilator, `make test-assertions` runs SVA-enabled Verilator binaries, and `make synth`/`make timing` run the ASIC evidence flow. The generated coverage report records observed transition counts and explicit functional cases rather than claiming unavailable proprietary code coverage.

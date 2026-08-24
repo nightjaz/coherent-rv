@@ -1,0 +1,112 @@
+WARNING: tb/core/riscv_arch_tb.sv:19: $readmemh(build/riscv-tests/add.hex): Not enough words in the file for the requested range [0:4095].
+PASS riscv-arch build/riscv-tests/add.hex cycles=541 retired=499
+tb/core/riscv_arch_tb.sv:25: $finish called at 5436000 (1ps)
+WARNING: tb/core/riscv_arch_tb.sv:19: $readmemh(build/riscv-tests/addi.hex): Not enough words in the file for the requested range [0:4095].
+PASS riscv-arch build/riscv-tests/addi.hex cycles=300 retired=276
+tb/core/riscv_arch_tb.sv:25: $finish called at 3026000 (1ps)
+WARNING: tb/core/riscv_arch_tb.sv:19: $readmemh(build/riscv-tests/and.hex): Not enough words in the file for the requested range [0:4095].
+PASS riscv-arch build/riscv-tests/and.hex cycles=561 retired=519
+tb/core/riscv_arch_tb.sv:25: $finish called at 5636000 (1ps)
+WARNING: tb/core/riscv_arch_tb.sv:19: $readmemh(build/riscv-tests/andi.hex): Not enough words in the file for the requested range [0:4095].
+PASS riscv-arch build/riscv-tests/andi.hex cycles=256 retired=232
+tb/core/riscv_arch_tb.sv:25: $finish called at 2586000 (1ps)
+WARNING: tb/core/riscv_arch_tb.sv:19: $readmemh(build/riscv-tests/auipc.hex): Not enough words in the file for the requested range [0:4095].
+PASS riscv-arch build/riscv-tests/auipc.hex cycles=108 retired=92
+tb/core/riscv_arch_tb.sv:25: $finish called at 1106000 (1ps)
+WARNING: tb/core/riscv_arch_tb.sv:19: $readmemh(build/riscv-tests/beq.hex): Not enough words in the file for the requested range [0:4095].
+PASS riscv-arch build/riscv-tests/beq.hex cycles=389 retired=325
+tb/core/riscv_arch_tb.sv:25: $finish called at 3916000 (1ps)
+WARNING: tb/core/riscv_arch_tb.sv:19: $readmemh(build/riscv-tests/bge.hex): Not enough words in the file for the requested range [0:4095].
+PASS riscv-arch build/riscv-tests/bge.hex cycles=425 retired=343
+tb/core/riscv_arch_tb.sv:25: $finish called at 4276000 (1ps)
+WARNING: tb/core/riscv_arch_tb.sv:19: $readmemh(build/riscv-tests/bgeu.hex): Not enough words in the file for the requested range [0:4095].
+PASS riscv-arch build/riscv-tests/bgeu.hex cycles=450 retired=368
+tb/core/riscv_arch_tb.sv:25: $finish called at 4526000 (1ps)
+WARNING: tb/core/riscv_arch_tb.sv:19: $readmemh(build/riscv-tests/blt.hex): Not enough words in the file for the requested range [0:4095].
+PASS riscv-arch build/riscv-tests/blt.hex cycles=389 retired=325
+tb/core/riscv_arch_tb.sv:25: $finish called at 3916000 (1ps)
+WARNING: tb/core/riscv_arch_tb.sv:19: $readmemh(build/riscv-tests/bltu.hex): Not enough words in the file for the requested range [0:4095].
+PASS riscv-arch build/riscv-tests/bltu.hex cycles=414 retired=350
+tb/core/riscv_arch_tb.sv:25: $finish called at 4166000 (1ps)
+WARNING: tb/core/riscv_arch_tb.sv:19: $readmemh(build/riscv-tests/bne.hex): Not enough words in the file for the requested range [0:4095].
+PASS riscv-arch build/riscv-tests/bne.hex cycles=393 retired=325
+tb/core/riscv_arch_tb.sv:25: $finish called at 3956000 (1ps)
+WARNING: tb/core/riscv_arch_tb.sv:19: $readmemh(build/riscv-tests/jal.hex): Not enough words in the file for the requested range [0:4095].
+PASS riscv-arch build/riscv-tests/jal.hex cycles=105 retired=89
+tb/core/riscv_arch_tb.sv:25: $finish called at 1076000 (1ps)
+WARNING: tb/core/riscv_arch_tb.sv:19: $readmemh(build/riscv-tests/jalr.hex): Not enough words in the file for the requested range [0:4095].
+PASS riscv-arch build/riscv-tests/jalr.hex cycles=185 retired=149
+tb/core/riscv_arch_tb.sv:25: $finish called at 1876000 (1ps)
+WARNING: tb/core/riscv_arch_tb.sv:19: $readmemh(build/riscv-tests/lb.hex): Not enough words in the file for the requested range [0:4095].
+PASS riscv-arch build/riscv-tests/lb.hex cycles=289 retired=263
+tb/core/riscv_arch_tb.sv:25: $finish called at 2916000 (1ps)
+WARNING: tb/core/riscv_arch_tb.sv:19: $readmemh(build/riscv-tests/lbu.hex): Not enough words in the file for the requested range [0:4095].
+PASS riscv-arch build/riscv-tests/lbu.hex cycles=289 retired=263
+tb/core/riscv_arch_tb.sv:25: $finish called at 2916000 (1ps)
+WARNING: tb/core/riscv_arch_tb.sv:19: $readmemh(build/riscv-tests/lh.hex): Not enough words in the file for the requested range [0:4095].
+PASS riscv-arch build/riscv-tests/lh.hex cycles=305 retired=279
+tb/core/riscv_arch_tb.sv:25: $finish called at 3076000 (1ps)
+WARNING: tb/core/riscv_arch_tb.sv:19: $readmemh(build/riscv-tests/lhu.hex): Not enough words in the file for the requested range [0:4095].
+PASS riscv-arch build/riscv-tests/lhu.hex cycles=314 retired=288
+tb/core/riscv_arch_tb.sv:25: $finish called at 3166000 (1ps)
+WARNING: tb/core/riscv_arch_tb.sv:19: $readmemh(build/riscv-tests/lui.hex): Not enough words in the file for the requested range [0:4095].
+PASS riscv-arch build/riscv-tests/lui.hex cycles=111 retired=99
+tb/core/riscv_arch_tb.sv:25: $finish called at 1136000 (1ps)
+WARNING: tb/core/riscv_arch_tb.sv:19: $readmemh(build/riscv-tests/lw.hex): Not enough words in the file for the requested range [0:4095].
+PASS riscv-arch build/riscv-tests/lw.hex cycles=319 retired=293
+tb/core/riscv_arch_tb.sv:25: $finish called at 3216000 (1ps)
+WARNING: tb/core/riscv_arch_tb.sv:19: $readmemh(build/riscv-tests/or.hex): Not enough words in the file for the requested range [0:4095].
+PASS riscv-arch build/riscv-tests/or.hex cycles=564 retired=522
+tb/core/riscv_arch_tb.sv:25: $finish called at 5666000 (1ps)
+WARNING: tb/core/riscv_arch_tb.sv:19: $readmemh(build/riscv-tests/ori.hex): Not enough words in the file for the requested range [0:4095].
+PASS riscv-arch build/riscv-tests/ori.hex cycles=263 retired=239
+tb/core/riscv_arch_tb.sv:25: $finish called at 2656000 (1ps)
+WARNING: tb/core/riscv_arch_tb.sv:19: $readmemh(build/riscv-tests/sb.hex): Not enough words in the file for the requested range [0:4095].
+PASS riscv-arch build/riscv-tests/sb.hex cycles=504 retired=452
+tb/core/riscv_arch_tb.sv:25: $finish called at 5066000 (1ps)
+WARNING: tb/core/riscv_arch_tb.sv:19: $readmemh(build/riscv-tests/sh.hex): Not enough words in the file for the requested range [0:4095].
+PASS riscv-arch build/riscv-tests/sh.hex cycles=557 retired=505
+tb/core/riscv_arch_tb.sv:25: $finish called at 5596000 (1ps)
+WARNING: tb/core/riscv_arch_tb.sv:19: $readmemh(build/riscv-tests/sll.hex): Not enough words in the file for the requested range [0:4095].
+PASS riscv-arch build/riscv-tests/sll.hex cycles=569 retired=527
+tb/core/riscv_arch_tb.sv:25: $finish called at 5716000 (1ps)
+WARNING: tb/core/riscv_arch_tb.sv:19: $readmemh(build/riscv-tests/slli.hex): Not enough words in the file for the requested range [0:4095].
+PASS riscv-arch build/riscv-tests/slli.hex cycles=299 retired=275
+tb/core/riscv_arch_tb.sv:25: $finish called at 3016000 (1ps)
+WARNING: tb/core/riscv_arch_tb.sv:19: $readmemh(build/riscv-tests/slt.hex): Not enough words in the file for the requested range [0:4095].
+PASS riscv-arch build/riscv-tests/slt.hex cycles=535 retired=493
+tb/core/riscv_arch_tb.sv:25: $finish called at 5376000 (1ps)
+WARNING: tb/core/riscv_arch_tb.sv:19: $readmemh(build/riscv-tests/slti.hex): Not enough words in the file for the requested range [0:4095].
+PASS riscv-arch build/riscv-tests/slti.hex cycles=295 retired=271
+tb/core/riscv_arch_tb.sv:25: $finish called at 2976000 (1ps)
+WARNING: tb/core/riscv_arch_tb.sv:19: $readmemh(build/riscv-tests/sltiu.hex): Not enough words in the file for the requested range [0:4095].
+PASS riscv-arch build/riscv-tests/sltiu.hex cycles=295 retired=271
+tb/core/riscv_arch_tb.sv:25: $finish called at 2976000 (1ps)
+WARNING: tb/core/riscv_arch_tb.sv:19: $readmemh(build/riscv-tests/sltu.hex): Not enough words in the file for the requested range [0:4095].
+PASS riscv-arch build/riscv-tests/sltu.hex cycles=535 retired=493
+tb/core/riscv_arch_tb.sv:25: $finish called at 5376000 (1ps)
+WARNING: tb/core/riscv_arch_tb.sv:19: $readmemh(build/riscv-tests/sra.hex): Not enough words in the file for the requested range [0:4095].
+PASS riscv-arch build/riscv-tests/sra.hex cycles=588 retired=546
+tb/core/riscv_arch_tb.sv:25: $finish called at 5906000 (1ps)
+WARNING: tb/core/riscv_arch_tb.sv:19: $readmemh(build/riscv-tests/srai.hex): Not enough words in the file for the requested range [0:4095].
+PASS riscv-arch build/riscv-tests/srai.hex cycles=314 retired=290
+tb/core/riscv_arch_tb.sv:25: $finish called at 3166000 (1ps)
+WARNING: tb/core/riscv_arch_tb.sv:19: $readmemh(build/riscv-tests/srl.hex): Not enough words in the file for the requested range [0:4095].
+PASS riscv-arch build/riscv-tests/srl.hex cycles=582 retired=540
+tb/core/riscv_arch_tb.sv:25: $finish called at 5846000 (1ps)
+WARNING: tb/core/riscv_arch_tb.sv:19: $readmemh(build/riscv-tests/srli.hex): Not enough words in the file for the requested range [0:4095].
+PASS riscv-arch build/riscv-tests/srli.hex cycles=308 retired=284
+tb/core/riscv_arch_tb.sv:25: $finish called at 3106000 (1ps)
+WARNING: tb/core/riscv_arch_tb.sv:19: $readmemh(build/riscv-tests/sub.hex): Not enough words in the file for the requested range [0:4095].
+PASS riscv-arch build/riscv-tests/sub.hex cycles=533 retired=491
+tb/core/riscv_arch_tb.sv:25: $finish called at 5356000 (1ps)
+WARNING: tb/core/riscv_arch_tb.sv:19: $readmemh(build/riscv-tests/sw.hex): Not enough words in the file for the requested range [0:4095].
+PASS riscv-arch build/riscv-tests/sw.hex cycles=565 retired=513
+tb/core/riscv_arch_tb.sv:25: $finish called at 5676000 (1ps)
+WARNING: tb/core/riscv_arch_tb.sv:19: $readmemh(build/riscv-tests/xor.hex): Not enough words in the file for the requested range [0:4095].
+PASS riscv-arch build/riscv-tests/xor.hex cycles=563 retired=521
+tb/core/riscv_arch_tb.sv:25: $finish called at 5656000 (1ps)
+WARNING: tb/core/riscv_arch_tb.sv:19: $readmemh(build/riscv-tests/xori.hex): Not enough words in the file for the requested range [0:4095].
+PASS riscv-arch build/riscv-tests/xori.hex cycles=265 retired=241
+tb/core/riscv_arch_tb.sv:25: $finish called at 2676000 (1ps)
+PASS official riscv-tests RV32UI 37/37

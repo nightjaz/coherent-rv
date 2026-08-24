@@ -1,0 +1,7 @@
+read_verilog -DSYNTHESIS -sv rtl/core/alu.sv rtl/core/immediate_gen.sv rtl/core/control_unit.sv
+read_verilog -DSYNTHESIS -sv rtl/core/register_file.sv rtl/core/hazard_unit.sv rtl/core/forwarding_unit.sv rtl/core/rv32_core.sv
+hierarchy -check -top rv32_core
+proc; opt; memory; opt
+techmap; opt
+tee -o build/core-stat.json stat -json
+write_json build/rv32_core.json

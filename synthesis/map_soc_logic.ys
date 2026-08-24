@@ -1,0 +1,9 @@
+read_liberty -lib -ignore_miss_func physical/lib/NangateOpenCellLibrary_typical.lib
+read_verilog -DSYNTHESIS -sv rtl/core/*.sv rtl/cache/*.sv rtl/interconnect/*.sv synthesis/simple_memory_blackbox.sv rtl/soc/*.sv
+hierarchy -check -top dual_core_soc
+proc; flatten; opt; memory_dff; memory_collect; opt; techmap; opt
+dfflibmap -liberty physical/lib/NangateOpenCellLibrary_typical.lib
+abc -liberty physical/lib/NangateOpenCellLibrary_typical.lib
+clean
+tee -o build/soc-mapped-stat.txt stat -liberty physical/lib/NangateOpenCellLibrary_typical.lib
+write_verilog -noattr build/dual_core_soc_logic_mapped.v

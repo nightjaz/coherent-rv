@@ -1,0 +1,4 @@
+/build/
+/physical/lib/*.lib
+*.vcd
+*.fst
